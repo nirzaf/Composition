@@ -7,7 +7,7 @@ class program
         Console.WriteLine("Hello World!");
         Console.WriteLine("Press any key to continue...");
         
-        Car c = new Car();
+        var c = new Car();
         c.NewCar();
         
         Console.ReadKey(true);
@@ -17,14 +17,14 @@ class program
 
 public class Vehicle
 {
-    public long Id { get; set; }
-    public string Name { get; set; }
-    public string Type { get; set; }
-    public string Color { get; set; }
-    public string Make { get; set; }
-    public string Model { get; set; }
-    public string Year { get; set; }
-    public string Plate { get; set; }
+    private long Id { get; set; }
+    private string Name { get; set; }
+    private string Type { get; set; }
+    private string Color { get; set; }
+    private string Make { get; set; }
+    private string Model { get; set; }
+    private string Year { get; set; }
+    private string Plate { get; set; }
     
     public Vehicle()
     {
