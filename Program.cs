@@ -15,3 +15,10 @@ class program
 
 }
 
+public class Car
+{
+    public void NewCar()
+    {
+        Console.WriteLine("This is a new car.........!");
+    }
+}
