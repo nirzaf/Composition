@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 global using static System.Console;
+using Composition;
+
 class program
 {
     static void Main(string[] args)

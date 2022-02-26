@@ -1,4 +1,6 @@
-﻿public class Engine
+﻿namespace Composition;
+
+public class Engine
 {
     private readonly string _engineType;
     private readonly string _engineSize;
