@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 global using static System.Console;
-using Composition;
 
 class program
 {
@@ -12,15 +11,5 @@ class program
         var c = new Car();
         c.NewCar();
         ReadKey(true);
-    }
-}
-
-public class Car
-{
-    private Engine eng = new Engine("QWER","Auto");
-    public void NewCar()
-    {
-        WriteLine("This is a new car.........!");
-        eng.BuildEngine();
     }
 }
